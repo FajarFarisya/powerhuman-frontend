@@ -7,7 +7,7 @@
     <div class="px-6 py-[50px] gap-y-[50px] flex flex-col">
       <div class="flex items-center justify-between">
         <a href="#" class="flex justify-center">
-          <img src="assets/svgs/logo-type.svg" alt="" />
+          <img src="/assets/svgs/logo-type.svg" alt="" />
         </a>
         <a href="#" id="toggleCloseSidebar" class="lg:hidden">
           <svg
@@ -28,59 +28,59 @@
       </div>
       <div class="flex flex-col gap-4">
         <div class="text-sm text-grey">Daily Use</div>
-        <NuxtLink to="/" class="nav-link active">
-          <img src="assets/svgs/ic-grid.svg" alt="" />
+        <NuxtLink :to="{ name: 'companies-id-index' }" class="nav-link active">
+          <img src="/assets/svgs/ic-grid.svg" alt="" />
           Overview
         </NuxtLink>
-        <NuxtLink to="/employees" class="nav-link">
-          <img src="assets/svgs/ic-users.svg" alt="" />
+        <NuxtLink :to="{ name: 'companies-id-employees' }" class="nav-link">
+          <img src="/assets/svgs/ic-users.svg" alt="" />
           Employees
         </NuxtLink>
-        <NuxtLink to="/teams" class="nav-link">
-          <img src="assets/svgs/ic-briefcase.svg" alt="" />
+        <NuxtLink :to="{ name: 'companies-id-teams' }" class="nav-link">
+          <img src="/assets/svgs/ic-briefcase.svg" alt="" />
           My Teams
         </NuxtLink>
-        <NuxtLink to="/roles" class="nav-link">
-          <img src="assets/svgs/ic-flag.svg" alt="" />
+        <NuxtLink :to="{ name: 'companies-id-roles' }" class="nav-link">
+          <img src="/assets/svgs/ic-flag.svg" alt="" />
           Roles
         </NuxtLink>
         <!-- <a href="index.html" class="nav-link active">
-          <img src="assets/svgs/ic-grid.svg" alt="" />
+          <img src="/assets/svgs/ic-grid.svg" alt="" />
           Overview
         </a> -->
         <!-- <a href="employees.html" class="nav-link">
-          <img src="assets/svgs/ic-users.svg" alt="" />
+          <img src="/assets/svgs/ic-users.svg" alt="" />
           Employees
         </a> -->
         <!-- <a href="my_teams.html" class="nav-link">
-          <img src="assets/svgs/ic-briefcase.svg" alt="" />
+          <img src="/assets/svgs/ic-briefcase.svg" alt="" />
           My Teams
         </a> -->
         <!-- <a href="roles.html" class="nav-link">
-          <img src="assets/svgs/ic-flag.svg" alt="" />
+          <img src="/assets/svgs/ic-flag.svg" alt="" />
           Roles
         </a> -->
       </div>
       <div class="flex flex-col gap-4">
         <div class="text-sm text-grey">Others</div>
         <a href="#" class="nav-link">
-          <img src="assets/svgs/ic-box.svg" alt="" />
+          <img src="/assets/svgs/ic-box.svg" alt="" />
           Insurances
         </a>
         <a href="#" class="nav-link">
-          <img src="assets/svgs/ic-home.svg" alt="" />
+          <img src="/assets/svgs/ic-home.svg" alt="" />
           Company
         </a>
         <a href="#" class="nav-link">
-          <img src="assets/svgs/ic-gift.svg" alt="" />
+          <img src="/assets/svgs/ic-gift.svg" alt="" />
           Rewards
         </a>
         <a href="#" class="nav-link">
-          <img src="assets/svgs/ic-settings.svg" alt="" />
+          <img src="/assets/svgs/ic-settings.svg" alt="" />
           Settings
         </a>
         <a href="#" class="nav-link">
-          <img src="assets/svgs/ic-signout.svg" alt="" />
+          <img src="/assets/svgs/ic-signout.svg" alt="" />
           Logout
         </a>
       </div>
